@@ -1,0 +1,77 @@
+/*
+тег {
+Свойство: значение;
+}
+*/
+/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+Body {
+	background-color: #efefef;
+}
+main{
+	width: 70%;
+	background-color: #fff;
+	padding: 50px;
+	margin: auto; 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.photo{
+	width: calc(50% - 40px);
+	height: calc((35vw - 40px) / 16 * 9); /*view width 100% */
+	margin: 20px;
+	background-color: orange;
+	background-position: center;
+	background-size: cover;
+
+}
+.photo: hover {
+	transform: rotate(13deg) scale(1.07);
+	box-shadow: 0 0 20px 1px rgba(0,0,0,0.4);
+}
+H1{
+	text-align: center;
+	width: 100%;
+	font-size: 48px;
+}
+.photo1 {
+	background-image: url(../img/circuit1.jpg);
+}
+.photo2 {
+	background-image: url(../img/circuit2.jpg);
+}
+.photo3 {
+	background-image: url(../img/circuit3.jpg);
+}
+.photo4 {
+	background-image: url(../img/circuit4.jpg);
+}
+.photo5 {
+	background-image: url(../img/circuit5.png);
+}
+.photo6 {
+	background-image: url(../img/circuit6.png);
+}
+.photo7 {
+	background-image: url(../img/circuit7.jpg);
+}
+.photo8 {
+	background-image: url(../img/circuit8.jpg);
+}
+.photo9 {
+	background-image: url(../img/circuit9.jpg);
+}
+.photo10{
+	background-image: url(../img/circuit10.jpg);
+}
+.photo11{
+	background-image: url(../img/circuit11.jpg);
+}
+.photo12{
+	background-image: url(../img/circuit12.jpg);
+}
